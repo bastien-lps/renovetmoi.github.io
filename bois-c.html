@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+  
+<!--Icon barre recherche-->
+  <link rel="icon" type="image/png" href="Images/logo/iconlogo.png">
+<!--Fin icon barre de recherche-->
+  
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	
+<!--style-->
+	<style>
+   body{background-color: #afaaa4;
+   font-family:Verdana;
+   text-align: justify;
+   }
+   a { color: #ae2431; 
+   text-decoration:none;
+   }
+   a:hover
+{
+color: white;
+}
+   #scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 1;
+}
+   </style>
+<!--Fin style-->
+
+<!--Script bouton retour vers le haut-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+ 
+<script>
+            jQuery(function(){
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 200 ) { 
+                            $('#scrollUp').css('right','10px');
+                        } else { 
+                            $('#scrollUp').removeAttr( 'style' );
+                        }
+ 
+                    });
+                });
+            });
+</script>
+<!--Fin Script bouton retour vers le haut-->
+	
+	<!--Titre-->
+    <title>Rénov&moi: bois</title>
+	<!--Fin titre-->
+	
+  </head>
+  
+  <body>
+  
+<!--Barre de navigation début-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ae2431;">
+  <div class="container-fluid">
+  <img src="Images/logo/navlogo.png">
+    <a class="navbar-brand" href="#"><h2><strong>Rénov & moi</strong></h2></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"><strong>Accueil</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="photos.html"><strong>Avant/Après</strong></a>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <strong><u>Matériaux</u></strong>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="maconnerie.html">Maçonnerie</a></li>
+            <li><a class="dropdown-item" href="isolation.html">Isolation</a></li>
+            <li><a class="dropdown-item" href="bois.html">Bois </a></li>
+			<li><a class="dropdown-item" href="plafonnage.html">Plafonnage</a></li>
+			<li><a class="dropdown-item" href="carrelage.html">Carrelage</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.html"><strong>Contact</strong></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Fin barre de navigation-->
+
+<main class="container">
+<br/>
+<br/>
+<center><h1>Bois</h1></center>
+<br/>
+
+<!--Bouton décroissance-->
+<center><div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+  <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+  <label class="btn btn-outline-danger" for="btncheck2"><a href="bois-d.html">Prix décroissant</a></label>
+</div>
+</center>
+<!--Fin bouton décroissance-->
+<br/>
+
+<!--Début carte bois de pin sylvestre-->
+<div class="card mb-3" style="max-width: 1500px;">
+  <div class="row g-0">
+    <div class="col-md-3">
+      <br/><center><img src="Images/mat/sylvestre.png" alt="..."></center>
+    </div>
+    <div class="col-md-9">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Pin Sylvestre</strong></h5>
+        <p class="card-text">Issu de forêts au climat rigoureux, le Pin Sylvestre Scandinave aussi appelé Pin du Nord, est un bois qui n’est pas naturellement durable en extérieur
+		et nécessite une préservation. C’est un bois dont l’aubier se laisse aisément imprégner. Le Pin Sylvestre possède des propriétés médicinales reconnues. En effet l’huile
+		essentielle de Pin Sylvestre est un puissant tonique, dont les effets sont similaires à ceux de la cortisone, avec des propriétés antiseptiques respiratoires et expectorante,
+		c’est aussi un puissant analgésique cutané. C’est une essence de bois reconnue comme bienfaisante pour les personnes souffrant de maladies respiratoires, ou d’asthénie 
+		profonde, et invitées à séjourner à la montagne pour respirer l’agréable odeur du Pin.</p>
+        <p class="card-text"><small class="text-muted">Prix: 18€/m²</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Fin carte bois de pin sylvestre-->
+
+<!--Début carte bloc d'épicéa-->
+<div class="card mb-3" style="max-width: 1500px;">
+  <div class="row g-0">
+    <div class="col-md-3">
+      <center><img src="Images/mat/epicea.png" alt="..."></center>
+    </div>
+    <div class="col-md-9">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Epicéa</strong></h5>
+        <p class="card-text">L’épicéa n’est pas durable naturellement pour un usage extérieur et le bois se laisse difficilement imprégner. Mais comme l’eau pénètre donc moins
+		vite dans la structure du bois, cela retarde aussi les risques d’altérations fongiques. D'une bonne stabilité dimensionnelle, il est durable jusqu'à 50 ans s'il a été
+		préservé en classe 3.1, et s'il est recouvert d'une finition entretenue. L’usage en extérieur réclame une préservation par traitement en autoclave sous vide ou pression,
+		pour lui conférer une durabilité appropriée.</p>
+        <p class="card-text"><small class="text-muted">Prix: 25€/m²</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Fin carte bois d'épicéa-->
+
+<!--Début carte bois de douglas-->
+<div class="card mb-3" style="max-width: 1500px;">
+  <div class="row g-0">
+    <div class="col-md-3">
+      <center><img src="Images/mat/douglas.png" alt="..."></center>
+    </div>
+    <div class="col-md-9">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Douglas</strong></h5>
+        <p class="card-text">Le Douglas est un matériau très utilisé dans la construction car on lui reconnaît certaines qualités. En effet ce bois jouit d'une réputation de
+		bonne durabilité (si purgé d'aubier), et sa provenance locale peut convenir à ceux qui recherchent un produit robuste et à l’aspect rustique voire noueux, pour l’habillage
+		de leur construction.</p>
+        <p class="card-text"><small class="text-muted">Prix: 27,75€/m²</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Fin carte bois de douglas-->
+
+<!--Début carte bois de chêne-->
+<div class="card mb-3" style="max-width: 1500px;">
+  <div class="row g-0">
+    <div class="col-md-3">
+      <center><img src="Images/mat/chene.png" alt="..."></center>
+    </div>
+    <div class="col-md-9">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Chêne</strong></h5>
+        <p class="card-text">Le Chêne est un matériau idéal pour la construction en bois pérenne. Son bois de premier choix est utilisé en : tonnellerie pour l’élevage des vins
+		ou spiritueux, en placage ou ébénisterie, en menuiserie pour la fabrication de parquets et de meubles. Ses qualités secondaires servent à la fabrication de charpentes et
+		de traverses de chemins de fer. Son homogénéité de teinte permet l’utilisation de la technique de l’aboutage afin d’obtenir de grandes longueurs purgées de singularités.</p>
+        <p class="card-text"><small class="text-muted">Prix:40€/m²</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Fin carte bois de chêne-->
+<br/>
+
+<!--Bouton décroissance-->
+<center><div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+  <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+  <label class="btn btn-outline-danger" for="btncheck2"><a href="bois-d.html">Prix décroissant</a></label>
+</div>
+</center>
+<!--Fin bouton décroissance-->
+
+
+
+
+<center><img src="Images/logo/logo4.png" width=300 height=300></center>
+
+<!--Début carte contact-->
+<center>
+<div class="card border-dark mb-3" style="max-width: 180rem;">
+  <div class="card-header"><h4>Comment nous contacter?</h4></div>
+  <div class="card-body text-dark">
+    <p class="card-text">Téléphone: 0472/24.44.11<br/>
+	Adresse: Rue Catoire 35, 6532 Thuin</p>
+	Adresse mail: renovvmoi@gmail.com
+  </div>
+</div>
+</center>
+<!--Fin carte contact-->
+
+<br/>
+
+<br/>
+<center>
+© Tous droits réservés à Luppens Bastien
+</center>
+<div id="scrollUp">
+<a href="#top"><img src="Images/to_top.png"/></a>
+</div>
+</main>
+
+ <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+  </html>
